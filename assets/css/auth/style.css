@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto', sans-serif;
+	color: #4a4a4a;
+}
+
+body {
+	background-image: url('../../img/bg-login.png');
+	overflow: hidden;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+
+.auth_login {
+	padding: 20px;
+	margin: 50px auto;
+}
+
+.img-logo {
+	min-height: 600px;
+	margin-top: -20px;
+	display: flex;
+}
+
+.text-logo {
+	margin: auto;
+	color: #4a4a4a;
+}
+
+.text-diskripsi {
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+	color: #4a4a4a;
+}
+
+.card-body .text-diskripsi {
+	font-size: 18px;
+	font-family: 'Nunito', sans-serif;
+	color: #4a4a4a;
+}
+
+.card-body .form-group .text-diskripsi {
+	font-size: 18px;
+	color: #1A5A81;
+	font-style: normal;
+	font-family: 'Roboto', sans-serif;
+}
+
+.form-login {
+	max-height: 1600px;
+	margin-top: -20px;
+}
+
+.form-login .card-login {
+	padding: 20px;
+	margin: auto;
+	box-shadow: 0px 17px 191px rgba(0, 0, 0, 0.07), 0px 6.20528px 69.7181px rgba(0, 0, 0, 0.0482987), 0px 3.01255px 33.8469px rgba(0, 0, 0, 0.0389404), 0px 1.47681px 16.5924px rgba(0, 0, 0, 0.0310596), 0px 0.583932px 6.56065px rgba(0, 0, 0, 0.0217013);
+	border-radius: 16px;
+}
+
+.btn-login {
+	border-radius: 40px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+/* Untuk responsive */
+@media(min-width : 661px) {
+	.form-login {
+		display: flex;
+	}
+
+	.mobile-tampil-form {
+		display: none;
+	}
+}
+
+@media(max-width : 660px) {
+	body {
+		background-image: none;
+
+	}
+
+	.mobile {
+		margin-top: -190px;
+	}
+
+	.mobile-form {
+		margin-top: -160px;
+	}
+
+	.mobile-text {
+		font-size: 26px;
+	}
+
+	.text-logo .text-diskripsi {
+		font-size: 15px;
+	}
+
+	.form-login {
+		display: none;
+	}
+
+	.img-logo-mobile {
+		width: 350px;
+	}
+
+	.mobile-tampil-form h2 {
+		display: none;
+	}
+
+	.mobile-tampil-form .text-diskripsi {
+		display: none;
+	}
+
+}
